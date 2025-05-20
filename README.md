@@ -1,36 +1,77 @@
 # 🛍️ Merch Store
 
-**Full-stack merch store project** built with React (frontend) and Python Flask (backend).  
-Designed to be clean, responsive, and simple to build on — whether you're browsing, adding products, or just testing your local server vibes.
+**A full-stack merch store built with React (frontend) and Flask (backend).**  
+Clean code, responsive design, and just the right amount of calm energy.
 
-> Clear code, calm energy — with just the right amount of drip.
+> “Clear code, calm energy — with a hint of drip.”
 
 ---
 
 ## 📦 Overview
 
 This is a two-part application:
-- **Frontend**: React + Tailwind CSS  
-- **Backend**: Flask + SQLAlchemy
+- **Frontend**: React + Tailwind CSS (via Vite)
+- **Backend**: Python Flask + SQLAlchemy
 
-The goal is to create a merch store where users can browse products, and where store owners can easily manage inventory from the backend. Think of it like a starter kit for a minimalist, stylish e-commerce platform.
+Designed as a minimalist, extendable e-commerce platform. Think starter kit for a merch shop — ideal for solo creators, pop-up brands, or portfolio projects.
 
 ---
 
 ## 🛠 Tech Stack
 
-**Frontend**
+### Frontend:
 - React
 - Tailwind CSS
 - Vite
+- React Router
 
-**Backend**
-- Python
+### Backend:
+- Python 3.8+
 - Flask
 - SQLAlchemy
 - Marshmallow (optional)
 
 ---
 
-## 📁 Project Structure
+## ✨ Features
 
+- Product list rendered via dynamic `ProductCard` components
+- Responsive UI with Tailwind styling
+- Backend support for creating and managing products (more coming)
+- Built to be extended: carts, users, checkout, etc.
+
+---
+
+## 🚀 Getting Started
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/billychorey/merch-store.git
+   ```
+
+2. **Install frontend dependencies**
+   ```bash
+   cd merch-store-tailwind
+   npm install
+   ```
+
+3. **Install backend dependencies**
+   ```bash
+   cd ../merch-store-backend
+   pipenv install
+   ```
+
+4. **Run the apps**
+   - Frontend:
+     ```bash
+     cd merch-store-tailwind
+     npm run dev
+     ```
+   - Backend:
+     ```bash
+     cd merch-store-backend
+     pipenv shell
+     python app.py
+     ```
+
+---
