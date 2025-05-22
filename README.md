@@ -37,8 +37,8 @@ Designed as a minimalist, extendable e-commerce platform. Think starter kit for 
 
 - Product list rendered via dynamic `ProductCard` components
 - Responsive UI with Tailwind styling
-- Backend support for creating and managing products (more coming)
-- Built to be extended: carts, users, checkout, etc.
+- Backend routes for creating and managing products — with room to grow (carts, users, etc.)
+- Built to be extended with authentication, checkout flows, and admin views
 
 ---
 
@@ -75,3 +75,29 @@ Designed as a minimalist, extendable e-commerce platform. Think starter kit for 
      ```
 
 ---
+
+## 🗂 Folder Structure
+
+```
+merch-store/
+├── merch-store-backend/     # Flask backend
+├── merch-store-tailwind/    # React frontend
+├── README.md
+└── LICENSE
+```
+
+---
+
+## 📸 Optional
+
+You can add a screenshot or demo link here later:
+
+```markdown
+![Merch Store Screenshot](screenshot.png)
+
+[Live Demo](https://your-live-url.com)
+```
+
+---
+
+Feel free to reach out or contribute. Built with calm energy and tested on a terrier.
